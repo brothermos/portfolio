@@ -22,9 +22,15 @@ const Footer = () => {
             <h4>Follow Me</h4>
             <div className="stick"></div>
             <div className="social_icons">
-               {socialIcons.map((socialIcon) => {
-                  return <div key={socialIcon.id}>{socialIcon.icon}</div>;
-               })}
+            {socialIcons.map((socialIcon) => {
+                        return (
+                            <div key={socialIcon.id}>
+                                <a href={`${socialIcon.social}`} target="_blank">
+                                    {socialIcon.icon}
+                                </a>
+                            </div>
+                        );
+                    })}
             </div>
          </div>
       </motion.div>

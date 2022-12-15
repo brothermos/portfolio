@@ -28,7 +28,7 @@ import work9 from "./assets/calculator.jpg";
 import work10 from "./assets/pagination.jpg";
 import work11 from "./assets/avery.jpg";
 
-export const navLinks = ["home", "about", "skills", "portfolio", "contact"];
+export const navLinks = ["home", "about", "skills", "project", "contact"];
 
 // export const socialIcons = [<FaGithub />, <FaInstagram />, <FaLinkedin />, <FaFacebook />];
 export const socialIcons = [

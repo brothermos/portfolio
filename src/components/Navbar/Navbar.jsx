@@ -4,6 +4,7 @@ import { animate, motion } from "framer-motion";
 import { HiMenuAlt4, HiX } from "react-icons/hi";
 import { navLinks } from "../../Data";
 import { socialIcons } from "../../Data";
+import miniLogo from '../../assets/minilogo.png'
 const Navbar = () => {
    const [scroll, setScroll] = useState(false);
    const [toggle, setToggle] = useState(false);
@@ -47,7 +48,7 @@ const Navbar = () => {
       >
          <div className="Nav_container">
             <div className="logo">
-               <h3>A</h3>
+               <img src={miniLogo} alt="" />
             </div>
             <ul className="nav_links">
                {navLinks.map((navlink, index) => {
