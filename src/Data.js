@@ -15,13 +15,18 @@ import {
 } from "react-icons/fa";
 import { DiJavascript1 } from "react-icons/di";
 import { SiTailwindcss, SiMaterialui } from "react-icons/si";
-import portfolio from "./assets/portfolio.jpg";
-import work1 from "./assets/work1.png";
-import work2 from "./assets/work2.png";
-import work3 from "./assets/work3.png";
-import work4 from "./assets/work4.png";
-import work5 from "./assets/work5.png";
-import work6 from "./assets/work6.png";
+// import portfolio from './assets/portfolio.jpg';
+import work1 from "./assets/jamming.jpg";
+import work2 from "./assets/instagram.jpg";
+import work3 from "./assets/booking.jpg";
+import work4 from "./assets/vueform.jpg";
+import work5 from "./assets/searchfilter.jpg";
+import work6 from "./assets/cart.jpg";
+import work7 from "./assets/darkmode.jpg";
+import work8 from "./assets/quiz.jpg";
+import work9 from "./assets/calculator.jpg";
+import work10 from "./assets/pagination.jpg";
+import work11 from "./assets/avery.jpg";
 
 export const navLinks = ["home", "about", "skills", "portfolio", "contact"];
 
@@ -118,76 +123,93 @@ export const workImages = [
       id: 1,
       img: work1,
       name: "project 1",
-      category: "web",
-      github: "https://github.com/maaammos",
-      website: "https://natdanai-averyandco.vercel.app/",
+      category: "Fontend",
+      github: "https://github.com/maaammos/jammming-assessment-mos",
+      website: "http://natdanai-mos.surge.sh/",
    },
    {
       id: 2,
       img: work2,
       name: "project 2",
-      category: "web",
-      github: "https://github.com/maaammos",
-      website: "https://natdanai-averyandco.vercel.app/",
+      category: "Fontend",
+      github: "https://github.com/maaammos/instagram-clone",
+      website: "https://natdanai-instagram-clone.vercel.app/",
    },
    {
       id: 3,
       img: work3,
       name: "project 3",
-      category: "web",
-      github: "https://github.com/maaammos",
-      website: "https://natdanai-averyandco.vercel.app/",
+      category: "Fontend",
+      github: "https://github.com/maaammos/react-booking-hotel",
+      website: "https://natdanai-react-booking-hotel.vercel.app/",
    },
    {
       id: 4,
       img: work4,
       name: "project 4",
-      category: "web",
-      github: "https://github.com/maaammos",
-      website: "https://natdanai-averyandco.vercel.app/",
+      category: "Fontend",
+      github: "https://github.com/maaammos/Vue-project-form",
+      website: "https://natdanai-vue-project-form.vercel.app/",
    },
    {
       id: 5,
       img: work5,
       name: "project 5",
-      category: "web",
-      github: "https://github.com/maaammos",
+      category: "Fontend",
+      github: "https://github.com/maaammos/react-search-filter",
+      website: "https://natdanai-react-search-filter.vercel.app/",
    },
    {
       id: 6,
       img: work6,
       name: "project 6",
-      category: "web",
-      github: "https://github.com/maaammos",
-      website: "https://natdanai-averyandco.vercel.app/",
+      category: "Fontend",
+      github: "https://github.com/maaammos/react-shopping-cart",
+      website: "https://natdanai-react-shopping-cart.vercel.app/",
    },
    {
       id: 7,
-      img: work6,
-      name: "project 6",
-      category: "web",
-      github: "https://github.com/maaammos",
-      website: "https://natdanai-averyandco.vercel.app/",
+      img: work7,
+      name: "project 7",
+      category: "Fontend",
+      github: "https://github.com/maaammos/react-darkmode",
+      website: "https://natdnai-react-darkmode.vercel.app/",
    },
    {
       id: 8,
-      img: work6,
-      name: "project 6",
-      category: "web",
-      github: "https://github.com/maaammos",
-      website: "https://natdanai-averyandco.vercel.app/",
+      img: work8,
+      name: "project 8",
+      category: "Fontend",
+      github: "https://github.com/maaammos/front-end-exam-2",
+      website: "https://front-end-exam-2.vercel.app/",
    },
    {
       id: 9,
-      img: work6,
-      name: "project 6",
-      category: "web",
-      github: "https://github.com/maaammos",
+      img: work9,
+      name: "project 9",
+      category: "Fontend",
+      github: "https://github.com/maaammos/react-calculator",
+      website: "https://natdanai-react-calculator.vercel.app/",
+   },
+   {
+      id: 10,
+      img: work10,
+      name: "project 10",
+      category: "Fontend",
+      github: "https://github.com/maaammos/react-pagination",
+      website: "https://natdanai-react-pagination.vercel.app/",
+   },
+   {
+      id: 11,
+      img: work11,
+      name: "project 10",
+      category: "Fontend",
+      github: "https://github.com/maaammos/averyandco-test",
       website: "https://natdanai-averyandco.vercel.app/",
    },
 ];
 
-export const workNavs = ["All", "Web", "App", "Design"];
+export const workNavs = ["All", "Fontend", "Backend"];
 
 export const contacts = [
    {

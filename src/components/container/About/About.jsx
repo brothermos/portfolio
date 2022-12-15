@@ -26,7 +26,7 @@ const About = () => {
                whileInView={{ x: [250, 0], opacity: 1 }}
                transition={{ duration: 1 }}
             >
-               <h2>Frontend Developer</h2>
+               <h2>Software Developer</h2>
                <p>
                   A simple person who want to push through to the limit " I will never do that " with fixed mindset that
                   I was not engineering student. After realize, my background degree is not fit with my interest at all
