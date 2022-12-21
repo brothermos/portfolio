@@ -16,10 +16,10 @@ import {
 import { DiJavascript1 } from "react-icons/di";
 import { SiTailwindcss, SiMaterialui } from "react-icons/si";
 // import portfolio from './assets/portfolio.jpg';
-import work1 from "./assets/jamming.jpg";
+import work1 from "./assets/nike.png";
 import work2 from "./assets/instagram.jpg";
 import work3 from "./assets/booking.jpg";
-import work4 from "./assets/vueform.jpg";
+import work4 from "./assets/jamming.jpg";
 import work5 from "./assets/searchfilter.jpg";
 import work6 from "./assets/cart.jpg";
 import work7 from "./assets/darkmode.jpg";
@@ -27,6 +27,8 @@ import work8 from "./assets/quiz.jpg";
 import work9 from "./assets/calculator.jpg";
 import work10 from "./assets/pagination.jpg";
 import work11 from "./assets/avery.jpg";
+import work12 from "./assets/vueform.jpg";
+
 
 export const navLinks = ["home", "about", "skills", "project", "contact"];
 
@@ -124,8 +126,8 @@ export const workImages = [
       img: work1,
       name: "project 1",
       category: "Fontend",
-      github: "https://github.com/maaammos/jammming-assessment-mos",
-      website: "http://natdanai-mos.surge.sh/",
+      github: "https://github.com/maaammos/react-nike-ecommerce",
+      website: "https://natdanai-react-ecommerce.vercel.app/",
    },
    {
       id: 2,
@@ -146,10 +148,10 @@ export const workImages = [
    {
       id: 4,
       img: work4,
-      name: "project 4",
+      name: "project 1",
       category: "Fontend",
-      github: "https://github.com/maaammos/Vue-project-form",
-      website: "https://natdanai-vue-project-form.vercel.app/",
+      github: "https://github.com/maaammos/jammming-assessment-mos",
+      website: "http://natdanai-mos.surge.sh/",
    },
    {
       id: 5,
@@ -207,6 +209,15 @@ export const workImages = [
       github: "https://github.com/maaammos/averyandco-test",
       website: "https://natdanai-averyandco.vercel.app/",
    },
+   {
+      id: 12,
+      img: work12,
+      name: "project 4",
+      category: "Fontend",
+      github: "https://github.com/maaammos/Vue-project-form",
+      website: "https://natdanai-vue-project-form.vercel.app/",
+   },
+   
 ];
 
 export const workNavs = ["All", "Fontend", "Backend"];
