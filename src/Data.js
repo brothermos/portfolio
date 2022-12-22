@@ -19,16 +19,15 @@ import { SiTailwindcss, SiMaterialui } from "react-icons/si";
 import work1 from "./assets/nike.png";
 import work2 from "./assets/instagram.jpg";
 import work3 from "./assets/booking.jpg";
-import work4 from "./assets/jamming.jpg";
+import work4 from "./assets/socialmedia1.png";
 import work5 from "./assets/searchfilter.jpg";
 import work6 from "./assets/cart.jpg";
-import work7 from "./assets/darkmode.jpg";
+import work7 from "./assets/jamming.jpg";
 import work8 from "./assets/quiz.jpg";
 import work9 from "./assets/calculator.jpg";
 import work10 from "./assets/pagination.jpg";
 import work11 from "./assets/avery.jpg";
 import work12 from "./assets/vueform.jpg";
-
 
 export const navLinks = ["home", "about", "skills", "project", "contact"];
 
@@ -148,10 +147,10 @@ export const workImages = [
    {
       id: 4,
       img: work4,
-      name: "project 1",
+      name: "project 7",
       category: "Fontend",
-      github: "https://github.com/maaammos/jammming-assessment-mos",
-      website: "http://natdanai-mos.surge.sh/",
+      github: "https://github.com/maaammos/react-socialmedia",
+      website: "https://natdanai-react-socialmedia.vercel.app/",
    },
    {
       id: 5,
@@ -172,10 +171,10 @@ export const workImages = [
    {
       id: 7,
       img: work7,
-      name: "project 7",
+      name: "project 1",
       category: "Fontend",
-      github: "https://github.com/maaammos/react-darkmode",
-      website: "https://natdnai-react-darkmode.vercel.app/",
+      github: "https://github.com/maaammos/jammming-assessment-mos",
+      website: "http://natdanai-mos.surge.sh/",
    },
    {
       id: 8,
@@ -217,7 +216,6 @@ export const workImages = [
       github: "https://github.com/maaammos/Vue-project-form",
       website: "https://natdanai-vue-project-form.vercel.app/",
    },
-   
 ];
 
 export const workNavs = ["All", "Fontend", "Backend"];
