@@ -3,7 +3,7 @@ import "./About.scss";
 import { motion } from "framer-motion";
 import { bios } from "../../../Data";
 import portfolio from "../../../assets/portfolio.jpg";
-import resume from '../../../assets/portfolio.pdf'
+import resume from '../../../assets/resume.pdf'
 const About = () => {
    return (
       <div className="container " id="about">
