@@ -103,6 +103,12 @@ export const experiences = [
     },
     {
         id: 3,
+        year: "2019-2022",
+        position: "Seller on Shopee",
+        company: "https://shopee.co.th/hugbearshop",
+    },
+    {
+        id: 4,
         year: "2015-2019",
         position: "Human Resource Management",
         company: "Prince of Songkhla University",
