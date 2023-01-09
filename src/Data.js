@@ -141,7 +141,7 @@ export const workImages = [
         name: "project 2",
         category: "Backend",
         github: "https://github.com/maaammos/vue-crud-frontend",
-        website: "vue-crud-mevnstack.herokuapp.com/",
+        website: "https://vue-crud-mevnstack.herokuapp.com/",
     },
     {
         id: 3,
