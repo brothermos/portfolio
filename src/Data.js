@@ -17,7 +17,7 @@ import { DiJavascript1 } from "react-icons/di";
 import { SiTailwindcss, SiMaterialui, SiTypescript } from "react-icons/si";
 // import portfolio from './assets/portfolio.jpg';
 import work1 from "./assets/nike.png";
-import work2 from "./assets/instagram.jpg";
+import work2 from "./assets/vue-mevn.jpg";
 import work3 from "./assets/booking.jpg";
 import work4 from "./assets/socialmedia1.png";
 import work5 from "./assets/searchfilter.jpg";
@@ -27,7 +27,7 @@ import work8 from "./assets/quiz.jpg";
 import work9 from "./assets/calculator.jpg";
 import work10 from "./assets/pagination.jpg";
 import work11 from "./assets/avery.jpg";
-import work12 from "./assets/vueform.jpg";
+import work12 from "./assets/instagram.jpg";
 
 export const navLinks = ["home", "about", "skills", "project", "contact"];
 
@@ -117,8 +117,8 @@ export const experiences = [
 export const finishes = [
     {
         id: 1,
-        number: "3 months",
-        itemName: "Experience",
+        number: "New Entry",
+        itemName: "No Experience",
     },
     {
         id: 2,
@@ -139,9 +139,9 @@ export const workImages = [
         id: 2,
         img: work2,
         name: "project 2",
-        category: "Fontend",
-        github: "https://github.com/maaammos/instagram-clone",
-        website: "https://natdanai-instagram-clone.vercel.app/",
+        category: "Backend",
+        github: "https://github.com/maaammos/vue-crud-frontend",
+        website: "vue-crud-mevnstack.herokuapp.com/",
     },
     {
         id: 3,
@@ -220,8 +220,8 @@ export const workImages = [
         img: work12,
         name: "project 4",
         category: "Fontend",
-        github: "https://github.com/maaammos/Vue-project-form",
-        website: "https://natdanai-vue-project-form.vercel.app/",
+        github: "https://github.com/maaammos/instagram-clone",
+        website: "natdanai-instagram-clone.vercel.app",
     },
 ];
 
