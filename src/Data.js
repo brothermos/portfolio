@@ -89,26 +89,26 @@ export const icons = [
 ];
 
 export const experiences = [
+    // {
+    //     id: 1,
+    //     year: "2022",
+    //     position: "Junior Frontend Developer",
+    //     company: "Dosetech Company, Sep-Nov",
+    // },
     {
-        id: 1,
-        year: "2022",
-        position: "Junior Frontend Developer",
-        company: "Dosetech Company, Sep-Nov",
-    },
-    {
-        di: 2,
+        di: 1,
         year: "2022",
         position: "Learner Software Developer",
         company: "Generation Thailand, May-Aug",
     },
     {
-        id: 3,
+        id: 2,
         year: "2019-2022",
         position: "Seller on Shopee",
         company: "https://shopee.co.th/hugbearshop",
     },
     {
-        id: 4,
+        id: 3,
         year: "2015-2019",
         position: "Human Resource Management",
         company: "Prince of Songkhla University",
