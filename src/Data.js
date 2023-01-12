@@ -26,7 +26,7 @@ import work7 from "./assets/jamming.jpg";
 import work8 from "./assets/quiz.jpg";
 import work9 from "./assets/calculator.jpg";
 import work10 from "./assets/pagination.jpg";
-import work11 from "./assets/avery.jpg";
+import work11 from "./assets/work11.jpg";
 import work12 from "./assets/instagram.jpg";
 
 export const navLinks = ["home", "about", "skills", "project", "contact"];
@@ -139,9 +139,17 @@ export const workImages = [
         id: 2,
         img: work2,
         name: "project 2",
-        category: "Backend",
+        category: "Fullstack",
         github: "https://github.com/maaammos/vue-crud-frontend",
         website: "https://vue-crud-mevnstack.herokuapp.com/",
+    },
+    {
+        id: 11,
+        img: work11,
+        name: "project 10",
+        category: "Fullstack",
+        github: "https://github.com/maaammos/vue-frontend-test",
+        website: "https://vue-crud-mysql.vercel.app/user",
     },
     {
         id: 3,
@@ -208,14 +216,6 @@ export const workImages = [
         website: "https://natdanai-react-pagination.vercel.app/",
     },
     {
-        id: 11,
-        img: work11,
-        name: "project 10",
-        category: "Fontend",
-        github: "https://github.com/maaammos/averyandco-test",
-        website: "https://natdanai-averyandco.vercel.app/",
-    },
-    {
         id: 12,
         img: work12,
         name: "project 4",
@@ -225,7 +225,7 @@ export const workImages = [
     },
 ];
 
-export const workNavs = ["All", "Fontend", "Backend"];
+export const workNavs = ["All", "Fontend", "Fullstack"];
 
 export const contacts = [
     {
