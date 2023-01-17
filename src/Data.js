@@ -21,7 +21,7 @@ import work2 from "./assets/vue-mevn.jpg";
 import work3 from "./assets/booking.jpg";
 import work4 from "./assets/socialmedia1.png";
 import work5 from "./assets/searchfilter.jpg";
-import work6 from "./assets/cart.jpg";
+import work6 from "./assets/mern.jpg";
 import work7 from "./assets/jamming.jpg";
 import work8 from "./assets/quiz.jpg";
 import work9 from "./assets/calculator.jpg";
@@ -129,11 +129,11 @@ export const finishes = [
 export const workImages = [
     {
         id: 1,
-        img: work1,
-        name: "project 1",
-        category: "Fontend",
-        github: "https://github.com/maaammos/react-nike-ecommerce",
-        website: "https://natdanai-react-ecommerce.vercel.app/",
+        img: work6,
+        name: "project 6",
+        category: "Fullstack",
+        github: "https://github.com/maaammos/fitplus-project-frontend",
+        website: "https://fitplus-project.vercel.app/",
     },
     {
         id: 2,
@@ -144,88 +144,88 @@ export const workImages = [
         website: "https://vue-crud-mevnstack.herokuapp.com/",
     },
     {
-        id: 11,
+        id: 3,
         img: work11,
-        name: "project 10",
+        name: "project 11",
         category: "Fullstack",
         github: "https://github.com/maaammos/vue-frontend-test",
         website: "https://vue-crud-mysql.vercel.app/user",
     },
     {
-        id: 3,
+        id: 4,
         img: work3,
         name: "project 3",
-        category: "Fontend",
+        category: "Frontend",
         github: "https://github.com/maaammos/react-booking-hotel",
         website: "https://natdanai-react-booking-hotel.vercel.app/",
     },
     {
-        id: 4,
+        id: 5,
         img: work4,
-        name: "project 7",
-        category: "Fontend",
+        name: "project 4",
+        category: "Frontend",
         github: "https://github.com/maaammos/react-socialmedia",
         website: "https://natdanai-react-socialmedia.vercel.app/",
     },
     {
-        id: 5,
+        id: 6,
         img: work5,
         name: "project 5",
-        category: "Fontend",
+        category: "Frontend",
         github: "https://github.com/maaammos/react-search-filter",
         website: "https://natdanai-react-search-filter.vercel.app/",
     },
     {
-        id: 6,
-        img: work6,
-        name: "project 6",
-        category: "Fontend",
-        github: "https://github.com/maaammos/react-shopping-cart",
-        website: "https://natdanai-react-shopping-cart.vercel.app/",
+        id: 7,
+        img: work1,
+        name: "project 1",
+        category: "Frontend",
+        github: "https://github.com/maaammos/react-nike-ecommerce",
+        website: "https://natdanai-react-ecommerce.vercel.app/",
     },
     {
-        id: 7,
+        id: 8,
         img: work7,
-        name: "project 1",
-        category: "Fontend",
+        name: "project 7",
+        category: "Frontend",
         github: "https://github.com/maaammos/jammming-assessment-mos",
         website: "http://natdanai-mos.surge.sh/",
     },
     {
-        id: 8,
+        id: 9,
         img: work8,
         name: "project 8",
-        category: "Fontend",
+        category: "Frontend",
         github: "https://github.com/maaammos/front-end-exam-2",
         website: "https://front-end-exam-2.vercel.app/",
     },
     {
-        id: 9,
+        id: 10,
         img: work9,
         name: "project 9",
-        category: "Fontend",
+        category: "Frontend",
         github: "https://github.com/maaammos/react-calculator",
         website: "https://natdanai-react-calculator.vercel.app/",
     },
     {
-        id: 10,
+        id: 11,
         img: work10,
         name: "project 10",
-        category: "Fontend",
+        category: "Frontend",
         github: "https://github.com/maaammos/react-pagination",
         website: "https://natdanai-react-pagination.vercel.app/",
     },
     {
         id: 12,
         img: work12,
-        name: "project 4",
-        category: "Fontend",
+        name: "project 12",
+        category: "Frontend",
         github: "https://github.com/maaammos/instagram-clone",
         website: "natdanai-instagram-clone.vercel.app",
     },
 ];
 
-export const workNavs = ["All", "Fontend", "Fullstack"];
+export const workNavs = ["All", "Frontend", "Fullstack"];
 
 export const contacts = [
     {
