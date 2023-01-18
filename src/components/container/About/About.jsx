@@ -29,7 +29,7 @@ const About = () => {
             >
                <h2>Software Developer</h2>
                <p>
-                  A simple person who want to push through to the limit " I will never do that " with fixed mindset that
+                  A simple person who want to push through to the limit "I will never do that" with fixed mindset that
                   I was not engineering student. After realize, my background degree is not fit with my interest at all
                   I want to try something new that I have never learned before. Then coding is an answer which can
                   improve this world to not stop orbit. Finally, I found it and i will dedicate for it.

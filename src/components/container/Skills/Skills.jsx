@@ -10,7 +10,7 @@ const Skills = () => {
       <div className="container" id="skills">
          <motion.div initial={{ opacity: 0 }} whileInView={{ y: [-50, 0], opacity: 1 }} className="title">
             <span>what I have experienced?</span>
-            <h1>Skills And Experience</h1>
+            <h1>Skills Experience Certificate</h1>
          </motion.div>
          <motion.div initial={{ opacity: 0 }} whileInView={{ y: [-50, 0], opacity: 1 }} className="select">
             <button onClick={() => setActive(1)} className={active === 1 ? "active" : ""}>
