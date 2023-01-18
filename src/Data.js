@@ -14,7 +14,14 @@ import {
     FaFacebook,
 } from "react-icons/fa";
 import { DiJavascript1 } from "react-icons/di";
-import { SiTailwindcss, SiMaterialui, SiTypescript } from "react-icons/si";
+import {
+    SiTailwindcss,
+    SiMaterialui,
+    SiTypescript,
+    SiExpress,
+    SiMongodb,
+    SiMysql,
+} from "react-icons/si";
 // import portfolio from './assets/portfolio.jpg';
 import work1 from "./assets/nike.png";
 import work2 from "./assets/vue-mevn.jpg";
@@ -83,9 +90,12 @@ export const icons = [
     <SiTypescript />,
     <FaVuejs />,
     <FaReact />,
-    <FaNodeJs />,
     <SiTailwindcss />,
     <SiMaterialui />,
+    <FaNodeJs />,
+    <SiExpress />,
+    <SiMongodb />,
+    <SiMysql />,
 ];
 
 export const experiences = [
@@ -112,6 +122,80 @@ export const experiences = [
         year: "2015-2019",
         position: "Human Resource Management",
         company: "Prince of Songkhla University",
+    },
+];
+export const certificates = [
+    // {
+    //     id: 1,
+    //     year: "2022",
+    //     position: "Junior Frontend Developer",
+    //     company: "Dosetech Company, Sep-Nov",
+    // },
+    {
+        id: 1,
+        year: "June 2022",
+        position: "Certified in Learn HTML",
+        company: "Codecademy",
+    },
+    {
+        id: 2,
+        year: "June 2022",
+        position: "Certified in Learn CSS",
+        company: "Codecademy",
+    },
+    {
+        id: 3,
+        year: "July 2022",
+        position: "Certified in Learn JavaScript",
+        company: "Codecademy",
+    },
+    {
+        id: 4,
+        year: "July 2022",
+        position: "Certified in Learn React",
+        company: "Codecademy",
+    },
+    {
+        id: 5,
+        year: "July 2022",
+        position: "Certified in Learn Node.Js",
+        company: "Codecademy",
+    },
+    {
+        id: 6,
+        year: "July 2022",
+        position: "Certified in Learn Express.Js",
+        company: "Codecademy",
+    },
+    {
+        id: 7,
+        year: "Aug 2022",
+        position: "MongoDB Basics",
+        company: "MongoDB University",
+    },
+    {
+        id: 8,
+        year: "June-Aug 2022",
+        position: "Ceitified In Junior Software Developer",
+        company: "Generation Thailand",
+    },
+    {
+        id: 9,
+        year: "Aug 2022",
+        position: "React 15 Workshop",
+        company: "Udemy",
+    },
+    {
+        id: 10,
+        year: "Dec 2022",
+        position: "TypeScripts",
+        company: "Udemy",
+    },
+    {
+        id: 11,
+        year: "Jan 2023",
+        position: "Certified in Learn Vue",
+        company: "Codecademy",
     },
 ];
 export const finishes = [

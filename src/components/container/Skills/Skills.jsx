@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Skills.scss";
 import { icons } from "../../../Data";
-import { experiences } from "../../../Data";
+import { experiences, certificates } from "../../../Data";
 import { finishes } from "../../../Data";
 import { motion } from "framer-motion";
 const Skills = () => {
@@ -18,6 +18,9 @@ const Skills = () => {
             </button>
             <button onClick={() => setActive(2)} className={active === 2 ? "active" : ""}>
                Experiences
+            </button>
+            <button onClick={() => setActive(3)} className={active === 3 ? "active" : ""}>
+               Certificate
             </button>
          </motion.div>
          <motion.div initial={{ opacity: 0 }} whileInView={{ y: [-50, 0], opacity: 1 }} className="skills">
@@ -39,6 +42,20 @@ const Skills = () => {
                         <div className="position">
                            <h3>{experience.position}</h3>
                            <p>{experience.company}</p>
+                        </div>
+                     </div>
+                  );
+               })}
+         </motion.div>
+         <motion.div initial={{ opacity: 0 }} whileInView={{ y: [-50, 0], opacity: 1 }} className="experiencs">
+            {active === 3 &&
+               certificates.map((certificate) => {
+                  return (
+                     <div className="experience" key={certificate.id}>
+                        <span>{certificate.year}</span>
+                        <div className="position">
+                           <h3>{certificate.position}</h3>
+                           <p>{certificate.company}</p>
                         </div>
                      </div>
                   );
