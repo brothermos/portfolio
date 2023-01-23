@@ -256,8 +256,8 @@ export const workImages = [
         img: work5,
         name: "project 5",
         category: "Frontend",
-        github: "https://github.com/maaammos/react-search-filter",
-        website: "https://natdanai-react-search-filter.vercel.app/",
+        github: "https://github.com/maaammos/react-redux-movie-api",
+        website: "https://react-redux-movie-api.vercel.app/",
     },
     {
         id: 7,
