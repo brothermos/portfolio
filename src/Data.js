@@ -305,7 +305,7 @@ export const workImages = [
         name: "project 12",
         category: "Frontend",
         github: "https://github.com/maaammos/instagram-clone",
-        website: "natdanai-instagram-clone.vercel.app",
+        website: "https://natdanai-instagram-clone.vercel.app",
     },
 ];
 
