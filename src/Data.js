@@ -32,7 +32,7 @@ import work6 from "./assets/mern.jpg";
 import work7 from "./assets/jamming.jpg";
 import work8 from "./assets/quiz.jpg";
 import work9 from "./assets/calculator.jpg";
-import work10 from "./assets/pagination.jpg";
+import work10 from "./assets/ai.jpg";
 import work11 from "./assets/work11.jpg";
 import work12 from "./assets/instagram.jpg";
 
@@ -295,9 +295,9 @@ export const workImages = [
         id: 11,
         img: work10,
         name: "project 10",
-        category: "Frontend",
-        github: "https://github.com/maaammos/react-pagination",
-        website: "https://natdanai-react-pagination.vercel.app/",
+        category: "Fullstack",
+        github: "https://github.com/maaammos/mern-ai-image-generate",
+        website: "https://mern-ai-image-generate.vercel.app/",
     },
     {
         id: 12,
