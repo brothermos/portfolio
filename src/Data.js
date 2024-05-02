@@ -14,20 +14,14 @@ import {
   FaFacebook,
 } from "react-icons/fa";
 import { DiJavascript1 } from "react-icons/di";
-import { SiTailwindcss, SiMaterialui, SiTypescript, SiExpress, SiMongodb, SiMysql, SiNextdotjs } from "react-icons/si";
-// import portfolio from './assets/portfolio.jpg';
-import work1 from "./assets/nike.png";
-import work2 from "./assets/vue-mevn.jpg";
-import work3 from "./assets/booking.jpg";
-import work4 from "./assets/socialmedia1.png";
-import work5 from "./assets/searchfilter.jpg";
-import work6 from "./assets/mern.jpg";
-import work7 from "./assets/jamming.jpg";
-import work8 from "./assets/quiz.jpg";
-import work9 from "./assets/calculator.jpg";
-import work10 from "./assets/ai.jpg";
-import work11 from "./assets/work11.jpg";
-import work12 from "./assets/instagram.jpg";
+import { BiLogoTailwindCss, BiLogoTypescript } from "react-icons/bi";
+
+import { SiExpress, SiNextdotjs } from "react-icons/si";
+
+import inskru from "./assets/inskru.png";
+import live_exchange from "./assets/live-x.png";
+import admin_inskru from "./assets/admin-inskru.png";
+import admin_live_exchange from "./assets/admin-live-x.png";
 
 export const navLinks = ["home", "about", "skills", "project", "contact"];
 
@@ -80,15 +74,13 @@ export const icons = [
   <FaHtml5 />,
   <FaCss3Alt />,
   <DiJavascript1 />,
-  <SiTypescript />,
+  <BiLogoTypescript />,
   <FaVuejs />,
   <FaReact />,
-  <SiTailwindcss />,
-  <SiMaterialui />,
+  <BiLogoTailwindCss />,
   <FaNodeJs />,
   <SiExpress />,
-  <SiMongodb />,
-  <SiMysql />,
+
   <SiNextdotjs />,
 ];
 
@@ -195,111 +187,42 @@ export const certificates = [
 export const finishes = [
   {
     id: 1,
-    number: "New Entry",
-    itemName: "No Experience",
-  },
-  {
-    id: 2,
-    number: "10+",
-    itemName: "Completed Project",
+    number: "Experience",
+    itemName: "1.5 years",
   },
 ];
 export const workImages = [
   {
     id: 1,
-    img: work6,
-    name: "project 6",
-    category: "Fullstack",
-    github: "https://github.com/maaammos/fitplus-project-frontend",
-    website: "https://fitplus-project.vercel.app/",
+    img: inskru,
+    name: "Inskru",
+    category: "Frontend",
+    github: "https://github.com/brothermos",
+    website: "https://new.inskru.com/idea-library/",
   },
   {
     id: 2,
-    img: work2,
-    name: "project 2",
-    category: "Fullstack",
-    github: "https://github.com/maaammos/vue-crud-frontend",
-    website: "https://vue-crud-mevnstack.herokuapp.com/",
+    img: admin_inskru,
+    name: "Admin Inskru",
+    category: "Frontend",
+    github: "https://github.com/brothermos",
+    website: "https://admin-new.inskru.com/",
   },
   {
     id: 3,
-    img: work11,
-    name: "project 11",
-    category: "Fullstack",
-    github: "https://github.com/maaammos/vue-frontend-test",
-    website: "https://vue-crud-mysql.vercel.app/user",
+    img: live_exchange,
+    name: "LiVe Exchange",
+    category: "Frontend",
+    github: "https://github.com/brothermos",
+    website: "https://www.live-platforms.com/live-exchange",
   },
   {
     id: 4,
-    img: work3,
-    name: "project 3",
+    img: admin_live_exchange,
+    name: "Admin LiVe Exchange",
     category: "Frontend",
-    github: "https://github.com/maaammos/react-booking-hotel",
-    website: "https://natdanai-react-booking-hotel.vercel.app/",
-  },
-  {
-    id: 5,
-    img: work4,
-    name: "project 4",
-    category: "Frontend",
-    github: "https://github.com/maaammos/react-socialmedia",
-    website: "https://natdanai-react-socialmedia.vercel.app/",
-  },
-  {
-    id: 6,
-    img: work5,
-    name: "project 5",
-    category: "Frontend",
-    github: "https://github.com/maaammos/react-redux-movie-api",
-    website: "https://react-redux-movie-api.vercel.app/",
-  },
-  {
-    id: 7,
-    img: work1,
-    name: "project 1",
-    category: "Frontend",
-    github: "https://github.com/maaammos/react-nike-ecommerce",
-    website: "https://natdanai-react-ecommerce.vercel.app/",
-  },
-  {
-    id: 8,
-    img: work7,
-    name: "project 7",
-    category: "Frontend",
-    github: "https://github.com/maaammos/jammming-assessment-mos",
-    website: "http://natdanai-mos.surge.sh/",
-  },
-  {
-    id: 9,
-    img: work8,
-    name: "project 8",
-    category: "Frontend",
-    github: "https://github.com/maaammos/front-end-exam-2",
-    website: "https://front-end-exam-2.vercel.app/",
-  },
-  {
-    id: 10,
-    img: work9,
-    name: "project 9",
-    category: "Frontend",
-    github: "https://github.com/maaammos/react-calculator",
-    website: "https://natdanai-react-calculator.vercel.app/",
-  },
-  {
-    id: 11,
-    img: work10,
-    name: "project 10",
-    category: "Fullstack",
-    github: "https://github.com/maaammos/mern-ai-image-generate",
-    website: "https://mern-ai-image-generate.vercel.app/",
-  },
-  {
-    id: 12,
-    img: work12,
-    name: "project 12",
-    category: "Frontend",
-    github: "https://github.com/maaammos/instagram-clone",
-    website: "https://natdanai-instagram-clone.vercel.app",
+    github: "https://github.com/brothermos",
+    website: "https://www.live-platforms.com/live-exchange",
   },
 ];
 

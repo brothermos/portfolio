@@ -10,7 +10,7 @@
       color: #000;
       background: #fff;
       padding: 0.65rem 1rem;
-      border-radius: 10px;
+      border-radius: 16px;
       font-size: 0.85rem;
       text-transform: capitalize;
       cursor: pointer;
@@ -27,7 +27,7 @@
    margin-top: 5rem;
    display: grid;
    grid-template-columns: repeat(3, 1fr);
-   gap: 1rem;
+   gap: 2rem;
 
    @media screen and(max-width: 800px) {
       grid-template-columns: repeat(2, 1fr);
@@ -51,11 +51,12 @@
       img {
          width: 100%;
          height: 100%;
+         border-radius: 16px;
          object-fit: cover;
       }
 
       .hoverLayer {
-         background: yellow;
+         background: transparent;
          width: 100%;
          height: 100%;
          z-index: 5;
@@ -68,13 +69,13 @@
          align-items: center;
 
          a {
-            width: 40px;
-            height: 40px;
+            width: 80px;
+            height: 80px;
             background: black;
             display: flex;
             justify-content: center;
             align-items: center;
-            border-radius: 50%;
+            border-radius: 16px;
             svg {
                color: #fff;
                font-size: 1.5rem;
