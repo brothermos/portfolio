@@ -188,7 +188,7 @@ export const finishes = [
   {
     id: 1,
     number: "Experience",
-    itemName: "1.5 years",
+    itemName: "3 years ++",
   },
 ];
 export const workImages = [
