@@ -39,7 +39,7 @@ const Contact = () => {
                         {socialIcons.map((socialIcon) => {
                             return (
                                 <div key={socialIcon.id}>
-                                    <a href={`${socialIcon.social}`} target="_blank">
+                                    <a href={`${socialIcon.social}`} target="_blank" rel="noreferrer">
                                         {socialIcon.icon}
                                     </a>
                                 </div>
